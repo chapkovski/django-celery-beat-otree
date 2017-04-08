@@ -1,0 +1,15 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    1 page
+{% endblock %}
+
+{% block content %}
+
+as soon as you access this page, something will start happening regularly with 10 seconds interval...
+
+<br>
+    {% next_button %}
+
+{% endblock %}
